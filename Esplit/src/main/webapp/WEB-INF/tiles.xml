@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    
+    <definition name="Addgroup" template="/WEB-INF/jsps/started.jsp">  
+        <put-attribute name="header" value="/WEB-INF/jsps/header.jsp" />   
+    </definition>  
+    
+    <definition name="login" template="/WEB-INF/jsps/login.jsp">  
+        <put-attribute name="header" value="/WEB-INF/jsps/header.jsp" />   
+    </definition>
+    
+</tiles-definitions>  
